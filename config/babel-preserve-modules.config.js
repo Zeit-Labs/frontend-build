@@ -18,6 +18,10 @@ module.exports = {
       plugins: [
         [
           'formatjs',
+          {
+            messagesDir: './temp/babel-plugin-react-intl',
+            moduleSourceName: '@edx/frontend-platform/i18n',
+          },
         ],
       ],
     },
